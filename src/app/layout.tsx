@@ -20,6 +20,7 @@ export const metadata: Metadata = {
     description: 'Somos tu mejor opción para la mejora de tu vida sexual',
     images: [
       {
+        secureUrl: 'https://egohshotxl.vercel.app/logos/drgerardoleon-alt.png',
         url: '/logos/drgerardoleon-alt.png',
         width: 1200,
         height: 630
