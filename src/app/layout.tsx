@@ -9,6 +9,7 @@ const poppins6 = Poppins({ weight: ['600'], style: ['normal'], subsets: ['latin'
 const poppins7 = Poppins({ weight: ['700'], style: ['normal'], subsets: ['latin'], variable: "--font-poppins7" });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://egohshotxl.vercel.app'),
   title: 'Dr Gerardo León | EGOH SHOT XL',
   description: 'Urólogo Dr. Gerardo León | Somos tu mejor opción para la mejora de tu vida sexual',
   keywords: 'egohshot, agrandamiento pene, sin cirugia, tratamiento, urologo, innovacion, medicina',
@@ -18,11 +19,11 @@ export const metadata: Metadata = {
     title: 'EGOH SHOT XL | Dr Gerardo León',
     description: 'Somos tu mejor opción para la mejora de tu vida sexual',
     images: '/logos/drgerardoleon-alt.png',
-    url: 'https://egohshotxl.vercel.app/',
+    url: 'https://egohshotxl.vercel.app',
     type: 'website'
   },
   alternates: {
-    canonical: 'https://egohshotxl.vercel.app/'
+    canonical: 'https://egohshotxl.vercel.app'
   },
   icons: {
     icon: '/logos/favicon-drgl.ico'
