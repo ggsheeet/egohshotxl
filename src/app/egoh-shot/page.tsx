@@ -2,6 +2,10 @@ import { CTAthree } from "@/components/CTA";
 import { HeroExit } from "@/components/Hero";
 import { TitleExit } from "@/components/Title";
 
+export const metadata = {
+  title: 'EGOH SHOT XL Video Informativo',
+  description: 'Tratamiento inovador para el agrandamiento del pene SIN CIRUGIA'
+}
 
 export default function Exit() {
   return (

@@ -10,9 +10,9 @@ export const HeroHome = () => {
                     alt='DrGL'
                     width={1430}
                     height={1324}
-                    className='w-[50rem] 2xl:w-[40vw] h-[14rem] md:h-[25rem] lg:h-[27rem] 2xl:h-[38vh] object-cover object-top rounded-[0.175rem] elevation-7'
+                    className='w-[50rem] 2xl:w-[40vw] h-[16rem] md:h-[25rem] lg:h-[27rem] 2xl:h-[38vh] object-cover object-top rounded-[0.175rem] elevation-7'
                 />
-                <p className='font-poppins6 text-center text-primary text-sm md:text-base lg:text-sm 2xl:text-[0.75vw] py-[0.75rem] md:py-[1rem] lg:py-[1.8%]'>Dr. Gerardo León - Urologo experto en EGOH SHOT XL®</p>
+                <p className='font-poppins6 text-center text-primary text-xs md:text-base lg:text-sm 2xl:text-[0.75vw] py-[0.75rem] md:py-[1rem] lg:py-[1.8%]'>Dr. Gerardo León - Urologo experto en EGOH SHOT XL®</p>
             </div>
             <ul className='flex flex-col w-full lg:w-1/2 my-auto md:pt-[0.5rem] lg:pt-0'>
                 <p className='font-poppins5 text-[1.35rem] md:text-[1.6rem] lg:text-[2rem] 2xl:text-[1.9vw] text-info pb-[3%]'>Características del <span className='font-poppins6'>EGOH SHOT XL®</span></p>
@@ -70,9 +70,9 @@ export const HeroExit = () => {
                     alt='DrGL'
                     width={1430}
                     height={1324}
-                    className='w-[60rem] 2xl:w-[40vw] h-[14rem] md:h-[25rem] lg:h-[34rem] 2xl:h-[38vh] object-cover object-top rounded-[0.175rem] elevation-7'
+                    className='w-[60rem] 2xl:w-[40vw] h-[16rem] md:h-[25rem] lg:h-[34rem] 2xl:h-[38vh] object-cover object-top rounded-[0.175rem] elevation-7'
                 />
-                <p className='font-poppins5 text-center text-primary text-base md:text-2xl lg:text-xl 2xl:text-[0.75vw] py-[0.75rem] md:py-[1rem] lg:py-[1.8%] px-[30%]'>
+                <p className='font-poppins5 text-center text-primary text-sm md:text-2xl lg:text-xl 2xl:text-[0.75vw] py-[0.75rem] md:py-[1rem] lg:py-[1.8%] px-[15%] lg:px-[30%]'>
                     Mándanos un WhatsApp <a href='https://wa.me/5543468098'>dando clic aquí</a> o llamanos al <a href='tel:5549977551'>5549-97-7551</a>
                 </p>
             </div>
