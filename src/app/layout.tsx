@@ -18,7 +18,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'EGOH SHOT XL | Dr Gerardo León',
     description: 'Somos tu mejor opción para la mejora de tu vida sexual',
-    images: '/logos/drgerardoleon-alt.png',
+    images: {
+      url: '/logos/drgerardoleon-alt.png',
+      width: 2048,
+      height: 533
+    },
     url: 'https://egohshotxl.vercel.app',
     type: 'website'
   },
