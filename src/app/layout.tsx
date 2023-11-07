@@ -12,13 +12,19 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://egohshotxl.vercel.app'),
   title: 'Dr Gerardo León | EGOH SHOT XL',
   description: 'Urólogo Dr. Gerardo León | Somos tu mejor opción para la mejora de tu vida sexual',
-  keywords: 'egohshot, agrandamiento pene, sin cirugia, tratamiento, urologo, innovacion, medicina',
+  keywords: 'egohshot, agrandamiento, sin cirugia, tratamiento, urologo, innovacion, medicina',
   viewport: 'width=device-width, initial-scale=1.0, maximum-scale=1.0',
   robots: 'index, follow',
   openGraph: {
     title: 'EGOH SHOT XL | Dr Gerardo León',
     description: 'Somos tu mejor opción para la mejora de tu vida sexual',
-    images: '/logos/drgerardoleon-alt.png',
+    images: [
+      {
+        url: '/logos/drgerardoleon-alt.png',
+        width: 1200,
+        height: 630
+      },
+    ],
     url: 'https://egohshotxl.vercel.app',
     type: 'website'
   },
