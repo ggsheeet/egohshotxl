@@ -1,16 +1,18 @@
+'use client'
 import React from 'react'
 import Image from 'next/image'
+import Spot from './Spot'
 
 export const HeroHome = () => {
     return (
         <div className='flex flex-col lg:flex-row py-[5%] lg:py-[2%] gap-x-[2rem]'>
             <div className='flex flex-col items-center justify-end w-full lg:w-1/2'>
                 <Image
-                    src='/media/placeholderDGL.png'
+                    src='/media/drGL.webp'
                     alt='DrGL'
                     width={1430}
                     height={1324}
-                    className='w-[50rem] 2xl:w-[40vw] h-[16rem] md:h-[25rem] lg:h-[27rem] 2xl:h-[38vh] object-cover object-top rounded-[0.175rem] elevation-7'
+                    className='w-[50rem] 2xl:w-[40vw] h-[23rem] md:h-[30rem] lg:h-[27rem] xl:h-[50vh] 2xl:h-[50vh] object-cover object-center rounded-[0.175rem] elevation-7'
                 />
                 <p className='font-poppins6 text-center text-primary text-xs md:text-base lg:text-sm 2xl:text-[0.75vw] py-[0.75rem] md:py-[1rem] lg:py-[1.8%]'>Dr. Gerardo León - Urologo experto en EGOH SHOT XL®</p>
             </div>
@@ -65,13 +67,7 @@ export const HeroExit = () => {
     return (
         <div className='flex flex-col lg:flex-row py-[5%] lg:py-[2%] gap-x-[2rem]'>
             <div className='flex flex-col items-center justify-end w-full'>
-                <Image
-                    src='/media/placeholderDGL.png'
-                    alt='DrGL'
-                    width={1430}
-                    height={1324}
-                    className='w-[60rem] 2xl:w-[40vw] h-[16rem] md:h-[25rem] lg:h-[34rem] 2xl:h-[38vh] object-cover object-top rounded-[0.175rem] elevation-7'
-                />
+                    <Spot />
                 <p className='font-poppins5 text-center text-primary text-sm md:text-2xl lg:text-xl 2xl:text-[0.75vw] py-[0.75rem] md:py-[1rem] lg:py-[1.8%] px-[15%] lg:px-[30%]'>
                     Mándanos un WhatsApp <a href='https://wa.me/5543468098'>dando clic aquí</a> o llamanos al <a href='tel:5549977551'>5549-97-7551</a>
                 </p>
@@ -79,3 +75,4 @@ export const HeroExit = () => {
         </div>
     )
 }
+
