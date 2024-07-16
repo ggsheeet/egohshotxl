@@ -7,7 +7,6 @@ The tools integrated within this project include:
 - Typescript
 - Tailwind CSS
 - DaisyUI
-- CSS modules
 - NextJS App Router
 - Reusable Function Components
 
